@@ -14,6 +14,7 @@
 		741D547329636C8200E1BE4E /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D547229636C8200E1BE4E /* GameModel.swift */; };
 		741D547529636E4900E1BE4E /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D547429636E4900E1BE4E /* EmojiMemoryGame.swift */; };
 		7445CC6629650FB100863506 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7445CC6529650FB100863506 /* CardView.swift */; };
+		748400FC2967B8F800BB2B8C /* AspectVgrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748400FB2967B8F800BB2B8C /* AspectVgrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		741D547229636C8200E1BE4E /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		741D547429636E4900E1BE4E /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		7445CC6529650FB100863506 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		748400FB2967B8F800BB2B8C /* AspectVgrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVgrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				741D5466295FD50500E1BE4E /* EmojiMemoryGameView.swift */,
 				7445CC6529650FB100863506 /* CardView.swift */,
+				748400FB2967B8F800BB2B8C /* AspectVgrid.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				741D547329636C8200E1BE4E /* GameModel.swift in Sources */,
 				741D5467295FD50500E1BE4E /* EmojiMemoryGameView.swift in Sources */,
+				748400FC2967B8F800BB2B8C /* AspectVgrid.swift in Sources */,
 				741D5465295FD50500E1BE4E /* MemorizeApp.swift in Sources */,
 				741D547529636E4900E1BE4E /* EmojiMemoryGame.swift in Sources */,
 				7445CC6629650FB100863506 /* CardView.swift in Sources */,
