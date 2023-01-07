@@ -49,13 +49,10 @@ struct AspectVgrid<Item, ItemView>: View where ItemView: View, Item: Identifiabl
                 break
             }
             columnCount += 1
-//            rowCount = (itemCount + (columnCount - 1)) / columnCount
             rowCount = Int(ceil(Double(itemCount) / Double(columnCount)))
         } while columnCount < itemCount
         
-        if columnCount > itemCount {
-            columnCount = itemCount
-        }
+        columnCount = min(itemCount, columnCount)
          
         return floor(size.width / CGFloat(columnCount))
     }
